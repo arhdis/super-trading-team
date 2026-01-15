@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Trading Team — Coming Soon</title>
+    <meta name="description" content="Super Trading Team is launching soon. A new trading experience for teams and communities." />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100 antialiased">
+    <div class="relative isolate overflow-hidden">
+      <div class="pointer-events-none absolute inset-0">
+        <div class="absolute -top-40 left-1/2 h-[480px] w-[720px] -translate-x-1/2 rounded-full bg-clifford/20 blur-3xl"></div>
+        <div class="absolute -bottom-64 right-0 h-[560px] w-[760px] translate-x-1/3 rounded-full bg-indigo-500/10 blur-3xl"></div>
+      </div>
+
+      <header class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-6">
+        <div class="flex items-center gap-3">
+          <img
+            src="./logo.jpg"
+            alt="Super Trading Team logo"
+            class="h-10 w-10 rounded-xl bg-slate-900/40 ring-1 ring-white/10"
+          />
+          <div class="leading-tight">
+            <div class="text-sm font-semibold tracking-wide">Super Trading Team</div>
+            <div class="text-xs text-slate-400">Coming soon</div>
+          </div>
+        </div>
+
+        <nav class="hidden items-center gap-6 text-sm text-slate-300 sm:flex">
+          <a class="hover:text-white" href="#about">About</a>
+          <a class="hover:text-white" href="#features">Features</a>
+          <a class="hover:text-white" href="#launch">Launch</a>
+        </nav>
+      </header>
+
+      <main class="mx-auto w-full max-w-6xl px-6 pb-16 pt-10 sm:pb-24 sm:pt-16">
+        <div class="grid gap-10 lg:grid-cols-12 lg:items-center">
+          <section class="lg:col-span-7">
+            <div class="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs text-slate-300 ring-1 ring-white/10">
+              <span class="h-2 w-2 rounded-full bg-clifford"></span>
+              <span>New project in progress</span>
+            </div>
+
+            <h1 class="mt-5 text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
+              A smarter way for teams to trade, learn, and grow.
+            </h1>
+            <p class="mt-5 max-w-2xl text-pretty text-base leading-7 text-slate-300 sm:text-lg">
+              Super Trading Team is an upcoming platform built for collaborative trading: shared strategy, clearer execution,
+              and a cleaner workflow from idea to action.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <a
+                href="#launch"
+                class="inline-flex items-center justify-center rounded-xl bg-clifford px-5 py-3 text-sm font-semibold text-white shadow-sm shadow-clifford/20 ring-1 ring-white/10 hover:bg-clifford/90"
+              >
+                Get launch updates
+              </a>
+              <a
+                href="#about"
+                class="inline-flex items-center justify-center rounded-xl bg-white/5 px-5 py-3 text-sm font-semibold text-slate-200 ring-1 ring-white/10 hover:bg-white/10"
+              >
+                Learn more
+              </a>
+            </div>
+
+            <dl class="mt-10 grid max-w-xl grid-cols-1 gap-6 sm:grid-cols-3">
+              <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                <dt class="text-xs text-slate-400">Focus</dt>
+                <dd class="mt-1 text-sm font-semibold">Team workflow</dd>
+              </div>
+              <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                <dt class="text-xs text-slate-400">Goal</dt>
+                <dd class="mt-1 text-sm font-semibold">Consistent execution</dd>
+              </div>
+              <div class="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
+                <dt class="text-xs text-slate-400">Status</dt>
+                <dd class="mt-1 text-sm font-semibold">Launching soon</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="lg:col-span-5">
+            <div class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+              <div class="flex items-center gap-3">
+                <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-clifford/15 ring-1 ring-clifford/30">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    class="h-6 w-6 text-clifford"
+                    aria-hidden="true"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 14l4-4 3 3 5-6" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="text-sm font-semibold">Private preview</div>
+                  <div class="text-xs text-slate-400">Early access by invite</div>
+                </div>
+              </div>
+
+              <div id="launch" class="mt-6">
+                <div class="text-sm font-semibold">Get notified at launch</div>
+                <p class="mt-2 text-sm text-slate-300">
+                  Leave your email in your notes for now — we’ll add a real signup soon.
+                </p>
+
+                <div class="mt-4 rounded-2xl bg-slate-950/40 p-4 ring-1 ring-white/10">
+                  <div class="flex items-start gap-3">
+                    <div class="mt-0.5 h-2 w-2 rounded-full bg-emerald-400"></div>
+                    <div class="text-sm text-slate-300">
+                      <div class="font-semibold text-slate-100">What’s next</div>
+                      <ul class="mt-2 space-y-1 text-sm text-slate-300">
+                        <li>• Landing page polish</li>
+                        <li>• Feature walkthrough</li>
+                        <li>• First public release</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+              <div id="about" class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+                <div class="text-sm font-semibold">About</div>
+                <p class="mt-2 text-sm leading-6 text-slate-300">
+                  Super Trading Team is designed for collaboration: share ideas, track decisions, and keep everyone aligned
+                  on the same plan.
+                </p>
+              </div>
+
+              <div id="features" class="rounded-3xl bg-white/5 p-6 ring-1 ring-white/10">
+                <div class="text-sm font-semibold">Planned features</div>
+                <ul class="mt-3 space-y-2 text-sm text-slate-300">
+                  <li class="flex gap-2">
+                    <span class="mt-1 h-1.5 w-1.5 flex-none rounded-full bg-clifford"></span>
+                    <span>Team dashboards and shared watchlists</span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 h-1.5 w-1.5 flex-none rounded-full bg-clifford"></span>
+                    <span>Strategy notes and decision logs</span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 h-1.5 w-1.5 flex-none rounded-full bg-clifford"></span>
+                    <span>Simple, fast, distraction-free UI</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <footer class="mt-14 border-t border-white/10 pt-8 text-xs text-slate-500">
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <div>© <span id="year"></span> Super Trading Team. All rights reserved.</div>
+            <div class="text-slate-600">Built for teams. Built for clarity.</div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
